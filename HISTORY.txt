@@ -1,0 +1,7 @@
+Central Sentry buildout
+=======================
+
+1.0 (unreleased)
+----------------
+
+ - initial release. [vincent]
