@@ -21,7 +21,7 @@ SENTRY_PUBLIC = True
 # but proxies may interfere with this.
 # SENTRY_URL_PREFIX = 'http://sentry.example.com'  # No trailing slash!
 
-SENTRY_ADMINS = ['v.pretre@zestsoftware.nl']
+SERVER_EMAIL = 'v.pretre@zestsoftware.nl'
 SENTRY_URL_PREFIX = 'http://sentry.zestsoftware.nl'
 
 SENTRY_WEB_HOST = '0.0.0.0'
