@@ -5,6 +5,9 @@ Central Sentry buildout
 1.1 (unreleased)
 ----------------
 
+- Add postgresql support.
+  [maurits]
+
 - Fresh zc.buildout and friends.
   [maurits
 

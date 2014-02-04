@@ -8,6 +8,7 @@
 bin
 build
 buildout.cfg
+central_sentry/settings_local.py
 central_sentry.db
 develop-eggs
 dist
