@@ -5,6 +5,9 @@ Central Sentry buildout
 1.1 (unreleased)
 ----------------
 
+- Try to import * from setting_local.py in settings.py.
+  [maurits]
+
 - Add postgresql support.
   [maurits]
 

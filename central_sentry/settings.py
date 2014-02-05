@@ -5,10 +5,12 @@ import os.path
 
 CONF_ROOT = os.path.dirname(__file__)
 
+# You should override this in settings_local.py to use a postgresql
+# database.
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': here('..', 'central_sentry.db'), # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': here('..', 'central_sentry.db'),
     }
 }
 
@@ -40,3 +42,9 @@ EMAIL_HOST_PASSWORD = ''
 EMAIL_HOST_USER = ''
 EMAIL_PORT = 25
 EMAIL_USE_TLS = False
+
+# Try to read local settings.
+try:
+    from settings_local import *
+except ImportError:
+    pass
