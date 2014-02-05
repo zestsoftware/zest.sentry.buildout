@@ -27,9 +27,8 @@ Dump the sqlite database
 
   cp central_sentry.db central_sentry_orig.db
 
-- Double check that the DATABASES in settings.py points to the
-  central_centry.db sqlite database (or have this in settings_local.py
-  and use that as option for --config).
+- Double check that the DATABASES in settings.py or settings_local.py
+  points to the central_centry.db sqlite database.
 
 - Run the upgrade and repair commands to make sure the database is good:
 
@@ -47,8 +46,7 @@ Load the dumped data into postgres
 ----------------------------------
 
 - Create a fresh postgres database and put the connection data into
-  settings.py (or in settings_local.py and use that as --config
-  option).
+  settings_local.py.
 
 - Initialize the database, do not create superusers:
 
