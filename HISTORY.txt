@@ -5,7 +5,10 @@ Central Sentry buildout
 1.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Production supervisor: use settings.py.  This will read
+  settings_local.py as well, so we can move our production.py changes
+  there.
+  [maurits]
 
 
 1.1 (2014-02-05)
