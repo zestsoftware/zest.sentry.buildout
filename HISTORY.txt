@@ -2,7 +2,7 @@ Central Sentry buildout
 =======================
 
 
-1.1 (unreleased)
+1.1 (2014-02-05)
 ----------------
 
 - Try to import * from setting_local.py in settings.py.
