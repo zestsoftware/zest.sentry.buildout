@@ -5,7 +5,7 @@ Central Sentry buildout
 1.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Reset Proxy header in nginx proxy config. [fred]
 
 
 1.3 (2014-02-05)
