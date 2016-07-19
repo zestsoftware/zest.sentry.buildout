@@ -2,10 +2,6 @@ server {
     listen 80;
     server_name ${parts.conf.domainname};
 
-    # AWstats
-    include /etc/nginx/awstats.conf;
-
-
     location / {
       proxy_pass         http://127.0.0.1:${parts.conf.fastcgi};
       proxy_redirect     off;

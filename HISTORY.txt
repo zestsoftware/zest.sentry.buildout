@@ -5,7 +5,7 @@ Central Sentry buildout
 1.5 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Remove awstats.conf include from the nginx.conf template. [fred]
 
 
 1.4 (2016-07-19)
