@@ -2,7 +2,7 @@ Central Sentry buildout
 =======================
 
 
-1.4 (unreleased)
+1.4 (2016-07-19)
 ----------------
 
 - Reset Proxy header in nginx proxy config. [fred]
