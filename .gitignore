@@ -18,3 +18,8 @@ eggs
 local.cfg
 parts
 var
+include
+lib
+.Python
+selenium
+share

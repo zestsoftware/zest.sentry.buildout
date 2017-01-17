@@ -3,7 +3,7 @@ server {
     server_name ${parts.conf.domainname};
 
     location / {
-      proxy_pass         http://127.0.0.1:${parts.conf.fastcgi};
+      proxy_pass         http://127.0.0.1:${parts.conf.sentry};
       proxy_redirect     off;
       proxy_set_header   Proxy            "";
       proxy_set_header   Host             $$host;
