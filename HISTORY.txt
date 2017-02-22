@@ -2,8 +2,10 @@ Central Sentry buildout
 =======================
 
 
-1.5 (unreleased)
+2.0 (unreleased)
 ----------------
+
+- Move to sentry 8, run redis, memcached and all sentry processes from supervisord, only use an external postgresql. [f.vandijk]
 
 - Remove awstats.conf include from the nginx.conf template. [fred]
 
