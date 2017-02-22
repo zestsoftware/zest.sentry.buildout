@@ -9,7 +9,7 @@ CONF_ROOT = os.path.dirname(__file__)
 DATABASES = {
     'default': {
         'ENGINE': 'sentry.db.postgres',
-        'NAME': 'sentry',
+        'NAME': '${conf:postgresname}',
         'USER': '${conf:postgresuser}',
         'PASSWORD': '${conf:postgrespw}',
         'HOST': 'localhost',
@@ -47,12 +47,12 @@ DEBUG = False
 #
 #   pip install python-memcached
 #
-# CACHES = {
-#     'default': {
-#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-#         'LOCATION': ['127.0.0.1:11211'],
-#     }
-# }
+CACHES = {
+  'default': {
+     'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+     'LOCATION': ['127.0.0.1:${conf:memcached}'],
+  }
+}
 
 # A primary cache is required for things such as processing events
 SENTRY_CACHE = 'sentry.cache.redis.RedisCache'
