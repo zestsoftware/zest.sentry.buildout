@@ -127,9 +127,14 @@ SENTRY_DIGESTS = 'sentry.digests.backends.redis.RedisBackend'
 # you need to uncomment and set it to the path where Sentry is hosted.
 # FORCE_SCRIPT_NAME = '/sentry'
 
-SENTRY_WEB_HOST = '0.0.0.0'
-SENTRY_WEB_PORT = 9000
+SENTRY_WEB_HOST = '127.0.0.1'
+SENTRY_WEB_PORT = ${conf:sentry}
 SENTRY_WEB_OPTIONS = {
     # 'workers': 3,  # the number of web workers
     # 'protocol': 'uwsgi',  # Enable uwsgi protocol instead of http
 }
+
+
+# Custom options for Zest:
+SENTRY_OPTIONS['mail.from'] = 'webadmin@zestsoftware.nl'
+SENTRY_FEATURES['auth:register'] = False
