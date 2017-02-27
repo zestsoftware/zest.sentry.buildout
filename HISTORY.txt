@@ -5,6 +5,8 @@ Central Sentry buildout
 2.0 (unreleased)
 ----------------
 
+- Add nginx ssl config for reverse proxy. [fred]
+
 - Move to sentry 8, run redis, memcached and all sentry processes from supervisord, only use an external postgresql. [f.vandijk]
 
 - Remove awstats.conf include from the nginx.conf template. [fred]
