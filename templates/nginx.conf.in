@@ -2,7 +2,7 @@ server {
         listen 80;
         server_name ${conf:domainname};
         # All requests to 80 are rewritten to https
-        return 301 https://sentry8.zestsoftware.nl$request_uri;
+        return 301 https://${conf:domainname}$request_uri;
 }
 
 server {

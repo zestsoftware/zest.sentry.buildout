@@ -5,6 +5,8 @@ Central Sentry buildout
 2.0 (unreleased)
 ----------------
 
+- Fix nginx redirect to https. [fred]
+
 - Add extra worker. [fred]
 
 - Add nginx ssl config for reverse proxy. [fred]
