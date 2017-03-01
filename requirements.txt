@@ -6,6 +6,8 @@ sentry-plugins==8.13.0
 # sentry dependencies for 8.13.0
 amqp==1.4.9
 anyjson==0.3.3
+appdirs==1.4.2
+BeautifulSoup==3.2.1
 billiard==3.3.0.23
 boto3==1.4.4
 botocore==1.5.15
@@ -41,6 +43,8 @@ libsourcemap==0.5.0
 lxml==3.7.3
 mock==1.0.1
 oauth2==1.9.0.post1
+oauthlib==2.0.1
+packaging==16.8
 percy==0.4.2
 petname==1.7
 Pillow==3.2.0
@@ -49,7 +53,9 @@ psycopg2==2.6.2
 py==1.4.32
 pyasn1==0.2.2
 pycparser==2.17
+PyJWT==1.4.2
 pyOpenSSL==16.2.0
+pyparsing==2.1.10
 pytest==2.6.4
 pytest-django==2.9.1
 pytest-html==1.9.0
@@ -65,6 +71,7 @@ raven==5.32.0
 rb==1.6
 redis==2.10.5
 requests==2.12.5
+requests-oauthlib==0.8.0
 s3transfer==0.1.10
 selenium==3.0.0b3
 setproctitle==1.1.10
