@@ -5,6 +5,8 @@ Central Sentry buildout
 2.0 (unreleased)
 ----------------
 
+- Add sentry-plugins to the requirements.txt [fred]
+
 - Fix nginx redirect to https. [fred]
 
 - Add extra worker. [fred]

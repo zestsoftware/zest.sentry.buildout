@@ -1,6 +1,7 @@
 zc.buildout==2.5.3
 setuptools==34.2.0
 sentry==8.13.0
+sentry-plugins==8.13.0
 
 # sentry dependencies for 8.13.0
 amqp==1.4.9
