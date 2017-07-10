@@ -5,6 +5,14 @@ Central Sentry buildout
 2.0 (unreleased)
 ----------------
 
+- Add ZEST-README.txt with info on how to use this buildout. [fred]
+
+- Update Sentry (& plugins) to 8.18.0. [fred]
+
+- Update buildout related packages, zc.buildout & setuptools to latest versions. [fred]
+
+- Update redis, memcache and nginx to latest stable releases. [fred]
+
 - Add sentry-plugins to the requirements.txt [fred]
 
 - Fix nginx redirect to https. [fred]
