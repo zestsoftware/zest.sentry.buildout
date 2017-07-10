@@ -2,3 +2,10 @@
 extends =
           devel.cfg
 #         production.cfg
+
+[conf]
+
+# sentry
+# set this in your local buildout.cfg to override/refresh
+# A new key can be generated with `$ sentry config generate-secret-key`
+secretkey = aomxe@tcl-z586@^1azjl=f_#&n)1zmu4*ltx&m2!4(-3p4(n3

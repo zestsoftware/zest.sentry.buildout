@@ -23,7 +23,8 @@ nasty in its setup.py that zc.buildout cannot handle.
 
 Copy buildout.cfg.orig to buildout.cfg and modify the setting to you liking. By
 default we extend on devel.cfg, but you can override settings by adding them to
-the [conf] section, for example your database location or mailserver.
+the [conf] section, for example your database location or mailserver. Pay
+attention to the secretkey used for django/sentry web sessions.
 
 Now you can run buildout with
 

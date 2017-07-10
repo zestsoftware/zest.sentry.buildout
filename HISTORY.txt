@@ -5,6 +5,8 @@ Central Sentry buildout
 2.0 (unreleased)
 ----------------
 
+- Add note for setting secretkey for Sentry web sessions. [fred]
+
 - Add ZEST-README.txt with info on how to use this buildout. [fred]
 
 - Update Sentry (& plugins) to 8.18.0. [fred]

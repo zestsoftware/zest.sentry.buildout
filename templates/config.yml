@@ -33,7 +33,7 @@ mail.from: '${conf:mailfrom}'
 # If this file ever becomes compromised, it's important to regenerate your a new key
 # Changing this value will result in all current sessions being invalidated.
 # A new key can be generated with `$ sentry config generate-secret-key`
-system.secret-key: 't-y!*ea8mh0mbn-9b&2%!f8)p6%5%%6f0d$=#4y&!2o%t8n@zz'
+system.secret-key: '${conf:secretkey}'
 
 # The ``redis.clusters`` setting is used, unsurprisingly, to configure Redis
 # clusters. These clusters can be then referred to by name when configuring
