@@ -136,5 +136,4 @@ SENTRY_WEB_OPTIONS = {
 
 
 # Custom options for Zest:
-SENTRY_OPTIONS['mail.from'] = 'webadmin@zestsoftware.nl'
 SENTRY_FEATURES['auth:register'] = False
