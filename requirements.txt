@@ -41,7 +41,7 @@ jmespath==0.9.1
 kombu==3.0.35
 libsourcemap==0.7.2
 loremipsum==1.0.5
-lxml==3.7.3
+lxml==4.6.3
 mmh3==2.3.1
 mock==1.0.1
 oauth2==1.9.0.post1
