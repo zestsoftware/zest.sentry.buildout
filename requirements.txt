@@ -87,5 +87,5 @@ symsynd==3.2.0
 toronado==0.0.11
 ua-parser==0.7.3
 unidiff==0.5.4
-urllib3==1.16
+urllib3==1.26.5
 uWSGI==2.0.14
